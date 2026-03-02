@@ -1,0 +1,111 @@
+/* ===== CSS RESET ===== */
+
+/* Remove default margin & padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full height layout */
+html, body {
+  height: 100%;
+}
+
+/* Remove list styling */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Table reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Improve font rendering */
+body {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: white; /* optional */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1100px;   /* ✅ limits width */
+    margin: 0 auto;      /* ✅ centers navbar */
+    padding: 20px 20px;     /* ✅ space from edges */
+}
+
+.container-button {
+    display: flex;
+    gap: 20px;
+}
+
+.main {
+                 /* ✅ MUST be flex */
+    justify-content: center;    /* center horizontally */
+    align-items: center;        /* center vertically */
+    height: 100vh;
+    margin: 150px 0 0 0 ;
+}   
+
+
+.section {
+    text-align: center;
+    
+}
+
+.section-div {
+    font-size: 35px;
+    margin: 0;
+}
+
+.section-div span {
+    font-size: 15px;
+    
+}
+
+
+.section-div button {
+    display: block;     /* makes button take its own line */
+    margin: 0px auto;  /* auto centers horizontally */
+}
+
+.icon {
+    display: flex;
+    width: 80%;
+    margin: auto;
+   
+    gap: 10%;
+    justify-content: center;    /* center horizontally */
+    align-items: center;  
+    height: 25vh;
+    flex-wrap: wrap;
+   
+}
+
+.icon p {
+    display: inline-block;
+}
+
+    
